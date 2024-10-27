@@ -1,0 +1,22 @@
+
+Settings:
+{
+betweenEnd: "10"
+betweenStart: "1"
+field: "14"
+label: "Période RSI"
+stepSize: "1"
+DeepHistory
+}
+{
+    "netProfit": 0.04,
+    "percentProfit": 0,
+    "profitFactor": 1.592,
+    "drawDown": 0.01,
+    "percentDown": 0,
+    "avgBars": 10,
+    "avgTrades": 0.0001,
+    "avgTradesPercent": 0.01,
+    "totalTrades": 400,
+    "percentProfitable": 47.37
+}

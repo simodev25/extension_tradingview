@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Best Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .step-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        input[type="number"] {
+            width: 50px;
+            margin-right: 10px;
+        }
+        label {
+            margin-right: 10px;
+        }
+        button {
+            background-color: #3579f6;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+<h1>Find Best Settings</h1>
+
+<div id="inputFieldsList">
+    <!-- Les champs dynamiques seront ajoutés ici -->
+</div>
+
+<!-- Bouton pour trouver les meilleurs paramètres -->
+<button id="findBestSettingsButton">Find Best Settings</button>
+
+<script src="popup.js"></script>
+</body>
+</html>
